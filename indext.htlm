@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PRODUCTOS GRIFOS CENTER</title>
+</head>
+
+<body>
+
+<h2>PRODUCTOS GRIFOS CENTER</h2>
+
+<input type="text" id="nombre"
+placeholder="Nombre del producto">
+<input type="number" id="precio"
+placeholder="Precio">
+
+<button onclick="agregarProducto()">Agregar producto</button>
+
+<h3>Lista de productos</h3>
+
+<ul id="lista"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
